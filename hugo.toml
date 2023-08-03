@@ -1,0 +1,37 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Pendulum & Rituals'
+theme = 'graysx-hugo-main'
+
+## Site Settings
+[params]
+logo = "/img/favicon_black.png"
+favicon = "/img/favicon.png"
+
+# Info
+address = "Grosser Muristalden 6, 3006 Bern"
+email = "pendulum@rituals.com"
+phone = "123456"
+
+## Menu Items
+[menu]
+  [[menu.main]]
+  name = "Über"
+  URL = "#about"
+  weight = 1
+
+  [[menu.main]]
+  name = "Leistungen"
+  URL = "#projects"
+  weight = 2
+
+  [[menu.main]]
+  name = "Kontakt"
+  URL = "#signup"
+  weight = 3
+
+
+# Credits
+
+# This theme is forked from: https://github.com/startbootstrap/startbootstrap-grayscale
+# This theme is forked by: https://github.com/akatiggerx04
