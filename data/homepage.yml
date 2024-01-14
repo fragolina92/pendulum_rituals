@@ -1,8 +1,11 @@
 # Main Title
 main:
   header:
-    title : "Pendulum & Rituals" # Title Text
-    description : "Aut Deleniti Solu Facilis Idlau imq Atque Ac Itaqu A Co Volup Nu Quaecu Nec Archite At." # Title Desc
+    title : "Wächterus" # Title Text
+    description : "Magie - die Kräfte der Natur. Sie haben weder Anfang noch Ende und doch beherrschen diese, ob wir nun wollen oder nicht, unser tägliches Leben. 
+                   Öffne Dein inneres Auge und erkenne, dass Du ein Teil des Göttlichen und magischen Geschehens dieser und anderer Welten bist und sein kannst. 
+                   Schüre deinen inneren Göttlichen Funken und bringe diesen zum erglühen. Bis daraus ein mächtiges Feuer entsteht. 
+                   Dann werden Wesen und Menschen erkennen, dass du eine aufgestiegene, bereite Seele bist und sie werden kommen, um sich an Deinem Feuer der Reinheit und Wärme zu erfreuen." # Title Desc
     button:
       text: "Mehr erfahren" # Button Text
       url: "#about" # Button URL
@@ -10,7 +13,15 @@ main:
 # About
 about:
   title: "Über uns"
-  desc: "Max Ducim Qua Labo Pa Adre Nam Ased Di Ullam Ess Num Minim Quorecu Re Iur Ipsam Autemo Autem Max Iurer Ut Enim Praese Ips Fugia Ne Dig Assumen Cul Ipsum Velit Magna Inl Odio Enimodi Nonve Sunti Tem Incidu Velqui Lauda Assume Volupt Nih Es Autem Officia Culpa Impedit Harum Blandi Si Quis Dol Facilis Verodo Tot Quib Quoden"
+  desc: "Ich für meinen Teil, musste dies schon früh in meiner Kindheit erkennen. So kam ich mit Kräften und Wesenheiten unwillentlich in Verbindung. 
+         Oder besser gesagt, diese mit mir. Als ich im Alter von 9. Jahren von einem Wesen aus einer Anderen Welt besucht wurde, musste ich mich damals mit dieser Thematik auseinandersetzen. 
+         Nach Zahllosen Nächten erfüllte mich damals meinen Christlichen Glauben nicht mehr, da ich in diesem nicht die Antworten auf meine Fragen gefunden hatte. 
+         Als ich 13. Jahre alt war, machte ich meine ersten Erfahrungen mit Evokationen (Beschwörung), von Wesen, dessen Macht sich ein Mensch gar nicht richtig bewusst werden kann. 
+         Umhüllt von der Kraft und Bestätigung des Übernatürlichen und Unerklärlichen, musste ich gezwungen nach einer Antwort zu finden mich au feinen schönen aber dennoch beschwerlichen Weg begehen. 
+         Dieser führte mich über die Keltische Druidische Magie unserer Vorfahren bis hin zum Pendeln und anderer Okkulter Techniken und Wege. 
+         So kam es, dass ich Mit 22. Jahren bei meinem alten Freund Mike Shiva als Lebensberater in dessen Sendung als Kartenleger und Pendler arbeitete. 
+         Heute, als Eingeweihter und initiierter in verschiedenen magischen Orden und Traditionen, ist es mir ein Anliegen, Anderen mit meinem Wissen und meiner Gabe zu helfen. 
+         Sie sehen also, dass meine praktischen Erfahrungen im Spirituellen, Magischen und auch esoterischen Bereich weit in meine Vergangenheit zurück reicht."
 
 projects:
   card1:
