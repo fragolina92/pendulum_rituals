@@ -30,7 +30,7 @@ projects:
   card1:
     title: "Leistungen"
     text: "Ich biete Dir und anderen Menschen meine Hilfe und Erkenntnisse sowie Erfahrungen im Bereich der Magie und des Übernatürlichen in vielen Bereichen an:"
-    img: "/img/pendulum.jpg"
+    img: "/img/stonehenge.jpg"
   card2:
     title: "Geisterkontakt"
     text: "Mit Verstorbenen Wesen oder Spuk- Phänomenen"
@@ -45,7 +45,7 @@ projects:
     title: "Invokationen und Evokationen"
     text1: "Invokationen und Evokationen von Wesen"
     text2: "Beschwörung der Elementarwesen nach Druidischen Lehren"
-    img: "/img/runes.jpg"
+    img: "/img/ghost.jpg"
   card5:
     title: "Zauber"
     text1: "Liebes und Glückszauber"
