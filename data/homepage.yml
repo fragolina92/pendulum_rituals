@@ -2,37 +2,66 @@
 main:
   header:
     title : "Wächterus" # Title Text
-    description : "Magie - die Kräfte der Natur. Sie haben weder Anfang noch Ende und doch beherrschen diese, ob wir nun wollen oder nicht, unser tägliches Leben. 
-                   Öffne Dein inneres Auge und erkenne, dass Du ein Teil des Göttlichen und magischen Geschehens dieser und anderer Welten bist und sein kannst. 
-                   Schüre deinen inneren Göttlichen Funken und bringe diesen zum erglühen. Bis daraus ein mächtiges Feuer entsteht. 
-                   Dann werden Wesen und Menschen erkennen, dass du eine aufgestiegene, bereite Seele bist und sie werden kommen, um sich an Deinem Feuer der Reinheit und Wärme zu erfreuen." # Title Desc
+    description1 : "Magie - die Kräfte der Natur. Sie haben weder Anfang noch Ende und doch beherrschen diese, ob wir nun wollen oder nicht, unser tägliches Leben."
+    description2 : "Öffne Dein inneres Auge und erkenne, dass Du ein Teil des Göttlichen und magischen Geschehens dieser und anderer Welten bist und sein kannst." 
+    description3 : "Schüre Deinen inneren Göttlichen Funken und bringe diesen zum erglühen. Bis daraus ein mächtiges Feuer entsteht."
+    description4 : "Dann werden Wesen und Menschen erkennen, dass Du eine aufgestiegene, bereite Seele bist und sie werden kommen, um sich an Deinem Feuer der Reinheit und Wärme zu erfreuen." # Title Desc
     button:
       text: "Mehr erfahren" # Button Text
       url: "#about" # Button URL
 
 # About
 about:
-  title: "Über uns"
-  desc: "Ich für meinen Teil, musste dies schon früh in meiner Kindheit erkennen. So kam ich mit Kräften und Wesenheiten unwillentlich in Verbindung. 
-         Oder besser gesagt, diese mit mir. Als ich im Alter von 9. Jahren von einem Wesen aus einer Anderen Welt besucht wurde, musste ich mich damals mit dieser Thematik auseinandersetzen. 
-         Nach Zahllosen Nächten erfüllte mich damals meinen Christlichen Glauben nicht mehr, da ich in diesem nicht die Antworten auf meine Fragen gefunden hatte. 
-         Als ich 13. Jahre alt war, machte ich meine ersten Erfahrungen mit Evokationen (Beschwörung), von Wesen, dessen Macht sich ein Mensch gar nicht richtig bewusst werden kann. 
-         Umhüllt von der Kraft und Bestätigung des Übernatürlichen und Unerklärlichen, musste ich gezwungen nach einer Antwort zu finden mich au feinen schönen aber dennoch beschwerlichen Weg begehen. 
-         Dieser führte mich über die Keltische Druidische Magie unserer Vorfahren bis hin zum Pendeln und anderer Okkulter Techniken und Wege. 
-         So kam es, dass ich Mit 22. Jahren bei meinem alten Freund Mike Shiva als Lebensberater in dessen Sendung als Kartenleger und Pendler arbeitete. 
-         Heute, als Eingeweihter und initiierter in verschiedenen magischen Orden und Traditionen, ist es mir ein Anliegen, Anderen mit meinem Wissen und meiner Gabe zu helfen. 
-         Sie sehen also, dass meine praktischen Erfahrungen im Spirituellen, Magischen und auch esoterischen Bereich weit in meine Vergangenheit zurück reicht."
+  title: "Über mich"
+  desc1: "Ich für meinen Teil musste dies schon früh in meiner Kindheit erkennen. So kam ich mit Kräften und Wesenheiten unwillentlich in Verbindung. 
+         Oder besser gesagt, diese mit mir. Als ich im Alter von 9 Jahren von einem Wesen aus einer Anderen Welt besucht wurde, musste ich mich damals mit dieser Thematik auseinandersetzen. 
+         Nach zahllosen Nächten erfüllte mich damals mein christlicher Glauben nicht mehr, da ich in diesem nicht die Antworten auf meine Fragen gefunden hatte." 
+  desc2: "Als ich 13 Jahre alt war, machte ich meine ersten Erfahrungen mit Evokationen (Beschwörung), von Wesen, dessen Macht sich ein Mensch gar nicht richtig bewusst werden kann. 
+         Umhüllt von der Kraft und Bestätigung des Übernatürlichen und Unerklärlichen, musste ich mich, gezwungen eine Antwort zu finden, auf einen schönen aber dennoch beschwerlichen Weg begeben. 
+         Dieser führte mich über die Keltische Druidische Magie unserer Vorfahren bis hin zum Pendeln und anderer Okkulter Techniken und Wege."
+  desc3: "So kam es, dass ich mit 22 Jahren bei meinem alten Freund Mike Shiva als Lebensberater in dessen Sendung als Kartenleger und Pendler arbeitete. 
+         Heute, als Eingeweihter und Initiierter in verschiedenen magischen Orden und Traditionen, ist es mir ein Anliegen, Anderen mit meinem Wissen und meiner Gabe zu helfen. 
+         Du siehst also, dass meine praktischen Erfahrungen im spirituellen, magischen und auch esoterischen Bereich weit in meine Vergangenheit zurück reicht."
+  button:
+    text: "Leistungen"
+    url: "#projects"
 
 projects:
   card1:
-    title: "Pendeln"
-    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
+    title: "Leistungen"
+    text: "Ich biete Dir und anderen Menschen meine Hilfe und Erkenntnisse sowie Erfahrungen im Bereich der Magie und des Übernatürlichen in vielen Bereichen an:"
     img: "/img/pendulum.jpg"
   card2:
-    title: "Reinigungen"
-    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
+    title: "Geisterkontakt"
+    text: "Mit Verstorbenen Wesen oder Spuk- Phänomenen"
     img: "/img/cleaning_ritual.jpg"
   card3:
     title: "Rituale"
-    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
+    text1: "Schutz und Reinigungsritual für Personen oder Gebäude und aller Art störender Einflüsse."
+    text2: "Rituale für die Öffnung des 3. Auges und der magischen Wahrnehmung."
+    text3: "Rituale und Meditationen für Astralreisen."
+    img: "/img/cleaning_ritual.jpg"
+  card4:
+    title: "Invokationen und Evokationen"
+    text1: "Invokationen und Evokationen von Wesen"
+    text2: "Beschwörung der Elementarwesen nach Druidischen Lehren"
+    img: "/img/runes.jpg"
+  card5:
+    title: "Zauber"
+    text1: "Liebes und Glückszauber"
+    text2: "Bannzauber"
+    text3: "Zauber um störende Personen loszuwerden"
     img: "/img/ritual.jpg"
+  card6:
+    title: "Tarot"
+    text1: "Gegenwart und Zukunftsberatung"
+    text2: "Paarberatungen"
+    text3: "Lebensberatungen"
+    img: "/img/tarot.jpg"
+  card7:
+    title: "Pendeln"
+    text1: "Wasseradern"
+    text2: "Störzonen"
+    text3: "Geisterkontakt"
+    text4: "Personen Lesungen (und Einschätzungen)"
+    img: "/img/pendulum.jpg"

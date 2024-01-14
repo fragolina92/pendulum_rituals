@@ -1,12 +1,12 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Pendulum & Rituals'
+languageCode = 'de-ch'
+title = 'Wächterus'
 theme = 'graysx-hugo-main'
 canonifyURLs = true
 
 ## Site Settings
 [params]
-logo = "/img/favicon_black.png"
+logo = "/img/favicon.png"
 favicon = "/img/favicon.png"
 
 # Info

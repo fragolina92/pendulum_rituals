@@ -10,7 +10,10 @@
                     <div class="text-center">
                         {{ with site.Data.homepage.main }}
                         <h1 class="mx-auto my-0 text-uppercase">{{ .header.title }}</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">{{ .header.description }}</h2>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">{{ .header.description1 }}</h2>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">{{ .header.description2 }}</h2>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">{{ .header.description3 }}</h2>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">{{ .header.description4 }}</h2>
                         <a class="btn btn-primary" href="{{ .header.button.url }}">{{ .header.button.text }}</a>
                         {{ end }}
                     </div>
@@ -24,10 +27,12 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
                         <h2 class="text-white mb-4">{{ .title }}</h2>
-                        <p class="text-white-50">{{ .desc }}</p>
-                        {{ if .button.enable }}
-                        <a class="btn btn-primary about-btn" href="{{ .button.url }}">{{ .button.text }}</a>
-                        {{ end }}
+                        <p class="text-white-50">{{ .desc1 }}</p>
+                        <p class="text-white-50">{{ .desc2 }}</p>
+                        <p class="text-white-50">{{ .desc3 }}</p>
+                        <!--{{ if .about.button.enable }}-->
+                        <a class="btn btn-primary" href="{{ .about.button.url }}">{{ .about.button.text }}</a>
+                        <!--{{ end }}-->
                     </div>
                 </div>
                 <!-- <img class="img-fluid" src="{{ .image }}" alt="..." /> -->
@@ -40,8 +45,8 @@
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="{{ .card1.img }}" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
+                    <div class="col-xl-4 col-lg-5"><img class="img-fluid mb-3 mb-lg-0" src="{{ .card1.img }}" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7">
                         <div class="featured-text text-center text-lg-left">
                             <h4>{{ .card1.title }}</h4>
                             <p class="text-black-50 mb-0">{{ .card1.text }}</p>
@@ -71,7 +76,77 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">{{ .card3.title }}</h4>
-                                    <p class="mb-0 text-white-50">{{ .card3.text }}</p>
+                                    <p class="mb-0 text-white-50">{{ .card3.text1 }}</p>
+                                    <p class="mb-0 text-white-50">{{ .card3.text2 }}</p>
+                                    <p class="mb-0 text-white-50">{{ .card3.text3 }}</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Three Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="{{ .card4.img }}" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">{{ .card4.title }}</h4>
+                                    <p class="mb-0 text-white-50">{{ .card4.text1 }}</p>
+                                    <p class="mb-0 text-white-50">{{ .card4.text2 }}</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Four Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="{{ .card5.img }}" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">{{ .card5.title }}</h4>
+                                    <p class="mb-0 text-white-50">{{ .card5.text1 }}</p>
+                                    <p class="mb-0 text-white-50">{{ .card5.text2 }}</p>
+                                    <p class="mb-0 text-white-50">{{ .card5.text3 }}</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Five Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="{{ .card6.img }}" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">{{ .card6.title }}</h4>
+                                    <p class="mb-0 text-white-50">{{ .card6.text1 }}</p>
+                                    <p class="mb-0 text-white-50">{{ .card6.text2 }}</p>
+                                    <p class="mb-0 text-white-50">{{ .card6.text3 }}</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Six Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="{{ .card7.img }}" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">{{ .card7.title }}</h4>
+                                    <p class="mb-0 text-white-50">{{ .card7.text1 }}</p>
+                                    <p class="mb-0 text-white-50">{{ .card7.text2 }}</p>
+                                    <p class="mb-0 text-white-50">{{ .card7.text3 }}</p>
+                                    <p class="mb-0 text-white-50">{{ .card7.text4 }}</p>
                                     <hr class="d-none d-lg-block mb-0 me-0" />
                                 </div>
                             </div>
